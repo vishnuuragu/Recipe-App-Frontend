@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type='file'] {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+#recipeContent p {
+    font-size: 16px;
+}
+
+#recipeContent ul, #recipeContent ol {
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #555;
+    margin-top: 15px;
+}
+
+ul, ol {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
