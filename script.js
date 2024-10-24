@@ -8,7 +8,7 @@ document.getElementById('uploadForm').addEventListener('submit', async function(
         formData.append('image', fileInput.files[0]);
 
         try {
-            const response = await fetch('http://54.226.233.244:8501/upload-image', {
+            const response = await fetch('https://54.226.233.244:8501/upload-image', {
                 method: 'POST',
                 body: formData
             });
